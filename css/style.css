@@ -76,6 +76,22 @@ main {
     object-fit: cover;
 }
 
+/* Om mig */
+
+.om-mig {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.om-mig figure {
+    margin: 0;
+}
+
+.portratt {
+    width: 250px;
+}
+
 /* Mindre skärmar */
 @media (max-width: 700px) {
     nav {
@@ -92,6 +108,10 @@ main {
     }
 
     .jamforelse {
+        flex-direction: column;
+    }
+
+    .om-mig {
         flex-direction: column;
     }
 }
