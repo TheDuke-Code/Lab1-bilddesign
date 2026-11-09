@@ -1,8 +1,8 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f4f8fb;
-    color: #222;
+    background-color: #fefefe;
+    color: #1e1d1d;
 }
 
 /* Navigering */
@@ -11,7 +11,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
-    background-color: #3b9ae1;
+    background-color: #164468;
 }
 
 .logga {
